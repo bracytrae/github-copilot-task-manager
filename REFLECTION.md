@@ -2,23 +2,23 @@
 
 What did you ask Copilot to help you build? How did you break down the problem?
 
-I asked Copilot to help me make a productivity app like notion using html, css, and javascript. I broke the problem down by visualzing what I was given and redirecting Copilot to the final result I was satisfied with.
+I asked Copilot to help me build a productivity app inspired by Notion using HTML, CSS, and JavaScript. I broke the problem down by visualizing the desired result and guiding Copilot toward the final version I wanted.
 
 How did your approach to asking questions change as you worked?
 
-My approach to asking questions changed because the questions I asked became more and more particular for the specifications of particular features within the app.
+My questions became more specific as I refined the requirements for individual features in the app.
 
-What parts of the development process with GitHub Copilot suprised you?
+What parts of the development process with GitHub Copilot surprised you?
 
-Something that I found suprising is that sometimes the AI didn't know what I was asking despite how clear my questions were.
+I was surprised that sometimes the AI did not understand my intent, even when I thought my questions were clear.
 
 What did you learn about the technology you used that you didn't know before?
 
-How to actually direct an agent to complete task's quickly and effectively.
+I learned how to direct an agent to complete tasks quickly and effectively.
 
 What would you do differently if you had to build this again?
 
-I would definitly create a mind map to make the app a bit more successful but it was fun knowing that I could get to a moc result of the app Notion.
+I would definitely create a mind map to plan the project more thoroughly. That said, it was fun to discover that I could produce a Notion-like mockup quickly.
 
 ### Tasks view (mockup)
 
