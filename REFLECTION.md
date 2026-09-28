@@ -4,7 +4,7 @@
 
 **Prompt:**
 
-![](image.png)
+![](prompt1.png)
 
 I asked Copilot to help me build a productivity app inspired by Notion using HTML, CSS, and JavaScript. I broke the problem down by visualizing the desired result and guiding Copilot toward the final version I wanted.
 
@@ -12,7 +12,7 @@ I asked Copilot to help me build a productivity app inspired by Notion using HTM
 
 **Prompt:**
 
-![alt text](image-1.png)
+![alt text](prompt2.png)
 
 My questions became more specific as I refined the requirements for individual features in the app.
 
@@ -20,8 +20,8 @@ My questions became more specific as I refined the requirements for individual f
 
 **Prompt:**
 
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](prompt3.png)
+![alt text](prompt4.png)
 
 I was surprised that sometimes the AI did not understand my intent, even when I thought my questions were clear.
 
@@ -29,7 +29,7 @@ I was surprised that sometimes the AI did not understand my intent, even when I 
 
 **Prompt:**
 
-![alt text](image-4.png)
+![alt text](prompt5.png)
 
 I learned how to direct an agent to complete tasks quickly and effectively.
 
