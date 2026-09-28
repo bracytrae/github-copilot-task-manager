@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="100%" height="100%" fill="#f4f6fb"/>
+  <rect x="28" y="28" width="220" height="640" rx="12" fill="#ffffff" stroke="#eef2ff"/>
+  <text x="48" y="64" font-family="Inter, Arial" font-size="20" fill="#4f46e5" font-weight="700">MiniNotion</text>
+  <rect x="268" y="28" width="884" height="80" rx="10" fill="#ffffff" stroke="#eef2ff"/>
+  <text x="300" y="76" font-family="Inter, Arial" font-size="20" fill="#0b1220" font-weight="700">Calendar</text>
+
+  <!-- composer -->
+  <rect x="300" y="120" width="500" height="60" rx="10" fill="#ffffff" stroke="#eef2ff"/>
+  <text x="320" y="152" font-family="Inter, Arial" font-size="14" fill="#9ca3af">Select date • Event title...</text>
+  <rect x="820" y="120" width="200" height="60" rx="10" fill="#4f46e5"/>
+  <text x="860" y="152" font-family="Inter, Arial" font-size="14" fill="#fff">Add Event</text>
+
+  <!-- events list -->
+  <g>
+    <rect x="300" y="220" width="720" height="80" rx="8" fill="#ffffff" stroke="#eef0fb"/>
+    <text x="320" y="255" font-family="Inter, Arial" font-size="14" fill="#4f46e5" font-weight="700">2026-10-01</text>
+    <text x="420" y="255" font-family="Inter, Arial" font-size="16" fill="#0b1220" font-weight="700">Team sync</text>
+    <text x="420" y="280" font-family="Inter, Arial" font-size="13" fill="#9ca3af">Discuss roadmap and priorities</text>
+  </g>
+  <g>
+    <rect x="300" y="320" width="720" height="80" rx="8" fill="#ffffff" stroke="#eef0fb"/>
+    <text x="320" y="355" font-family="Inter, Arial" font-size="14" fill="#4f46e5" font-weight="700">2026-10-05</text>
+    <text x="420" y="355" font-family="Inter, Arial" font-size="16" fill="#0b1220" font-weight="700">Release prep</text>
+    <text x="420" y="380" font-family="Inter, Arial" font-size="13" fill="#9ca3af">Finalize README and assets</text>
+  </g>
+
+  <text x="300" y="520" font-family="Inter, Arial" font-size="12" fill="#9ca3af">Events are saved to localStorage and can be exported/imported</text>
+</svg>

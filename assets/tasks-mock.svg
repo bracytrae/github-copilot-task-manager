@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="100%" height="100%" fill="#f4f6fb"/>
+  <rect x="28" y="28" width="220" height="640" rx="12" fill="#ffffff" stroke="#eef2ff"/>
+  <text x="48" y="64" font-family="Inter, Arial" font-size="20" fill="#4f46e5" font-weight="700">MiniNotion</text>
+  <rect x="268" y="28" width="884" height="80" rx="10" fill="#ffffff" stroke="#eef2ff"/>
+  <text x="300" y="76" font-family="Inter, Arial" font-size="20" fill="#0b1220" font-weight="700">Tasks</text>
+
+  <!-- composer -->
+  <rect x="300" y="120" width="820" height="90" rx="10" fill="#ffffff" stroke="#eef2ff"/>
+  <text x="320" y="160" font-family="Inter, Arial" font-size="14" fill="#9ca3af">New task title...</text>
+
+  <!-- task cards -->
+  <g>
+    <rect x="300" y="230" width="380" height="110" rx="12" fill="#ffffff" stroke="#f0f4ff"/>
+    <text x="320" y="270" font-family="Inter, Arial" font-size="16" fill="#0b1220" font-weight="700">Write project README</text>
+    <text x="320" y="295" font-family="Inter, Arial" font-size="13" fill="#9ca3af">Add installation and usage instructions</text>
+    <rect x="640" y="260" width="80" height="28" rx="8" fill="#fff7ed" stroke="#f3e8e3"/>
+    <text x="656" y="279" font-family="Inter, Arial" font-size="12" fill="#ef4444">High</text>
+  </g>
+
+  <g>
+    <rect x="700" y="230" width="420" height="110" rx="12" fill="#ffffff" stroke="#f0f4ff"/>
+    <text x="720" y="270" font-family="Inter, Arial" font-size="16" fill="#0b1220" font-weight="700">Inline edit experiment</text>
+    <text x="720" y="295" font-family="Inter, Arial" font-size="13" fill="#9ca3af">Double-click to edit title/description</text>
+  </g>
+
+  <g>
+    <rect x="300" y="360" width="380" height="110" rx="12" fill="#ffffff" stroke="#f0f4ff"/>
+    <text x="320" y="400" font-family="Inter, Arial" font-size="16" fill="#0b1220" font-weight="700">Prepare release notes</text>
+    <text x="320" y="425" font-family="Inter, Arial" font-size="13" fill="#9ca3af">Finalize UI polish and docs</text>
+  </g>
+
+  <!-- footer hint -->
+  <text x="300" y="520" font-family="Inter, Arial" font-size="12" fill="#9ca3af">Search, drag & drop, undo delete, export/import</text>
+</svg>

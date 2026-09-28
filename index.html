@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MiniNotion — Task Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar" role="navigation">
+        <div class="brand">MiniNotion</div>
+        <nav>
+          <button class="nav-btn active" data-view="tasks">Tasks</button>
+          <button class="nav-btn" data-view="calendar">Calendar</button>
+        </nav>
+      </aside>
+
+      <main class="main" role="main">
+        <header class="topbar">
+          <button id="menu-toggle" class="menu-toggle" aria-label="Open menu">☰</button>
+          <h1 id="view-title">Tasks</h1>
+          <div class="controls">
+            <div id="clock" class="clock" aria-live="polite">--:--</div>
+          </div>
+        </header>
+
+        <!-- Tasks view -->
+        <section id="view-tasks" class="view" role="region" aria-labelledby="view-title">
+          <section class="composer" aria-label="New task">
+            <label for="new-title" class="visually-hidden">Task title</label>
+            <input id="new-title" placeholder="Task title" />
+            <label for="new-desc" class="visually-hidden">Task description</label>
+            <textarea id="new-desc" placeholder="Describe the task (optional)"></textarea>
+            <div class="composer-actions">
+              <button id="add-btn" aria-label="Add task">Add Task</button>
+              <label><input id="priority" type="checkbox" /> High priority</label>
+            </div>
+          </section>
+
+          <div class="search-wrap">
+            <label for="search" class="visually-hidden">Search tasks</label>
+            <input id="search" class="task-search" placeholder="Search tasks..." />
+          </div>
+
+          <section class="board">
+            <div id="tasks-empty" class="empty-state">No tasks yet — add one to get started.</div>
+            <div id="tasks" class="tasks" aria-live="polite"></div>
+            <div class="board-actions">
+              <button id="export-tasks" class="btn small">Export Tasks</button>
+              <label for="import-tasks-file" class="btn small">Import Tasks</label>
+              <input id="import-tasks-file" type="file" accept="application/json" style="display:none" />
+              <button id="clear-tasks" class="btn small danger">Clear All Tasks</button>
+            </div>
+          </section>
+        </section>
+
+        <!-- Projects removed per request -->
+
+        <!-- Calendar view -->
+        <section id="view-calendar" class="view" style="display:none" role="region" aria-labelledby="view-title">
+          <section class="composer" aria-label="New event">
+            <label for="event-date" class="visually-hidden">Event date</label>
+            <input id="event-date" type="date" />
+            <label for="event-title" class="visually-hidden">Event title</label>
+            <input id="event-title" placeholder="Event title" />
+            <label for="event-desc" class="visually-hidden">Event description</label>
+            <input id="event-desc" placeholder="Event (optional)" />
+            <div class="composer-actions">
+              <button id="add-event-btn" aria-label="Add event">Add Event</button>
+            </div>
+          </section>
+          <section class="board">
+            <div id="events-empty" class="empty-state">No events yet — add one from the calendar composer.</div>
+            <div id="events-list" class="events-list" aria-live="polite"></div>
+            <div class="board-actions">
+              <button id="export-events" class="btn small">Export Events</button>
+              <label for="import-events-file" class="btn small">Import Events</label>
+              <input id="import-events-file" type="file" accept="application/json" style="display:none" />
+              <button id="clear-events" class="btn small danger">Clear All Events</button>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+    <div id="mobile-overlay" class="mobile-overlay" hidden></div>
+    <div id="toast" class="toast" aria-live="polite"></div>
+  </body>
+</html>
