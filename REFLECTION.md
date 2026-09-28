@@ -39,10 +39,10 @@ I would definitely create a mind map to plan the project more thoroughly. That s
 
 ### Tasks view (mockup)
 
-![Tasks view mockup](assets/tasks-mock.png)
+![Tasks view mockup](assets/tasks-mock.svg)
 
 ### Calendar view (mockup)
 
-![Calendar view mockup](assets/calendar-mock.png)
+![Calendar view mockup](assets/calendar-mock.svg)
 
 End of reflection.
