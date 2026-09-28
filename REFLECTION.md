@@ -22,10 +22,10 @@ I would definitly create a mind map to make the app a bit more successful but it
 
 ### Tasks view (mockup)
 
-![Tasks view mockup](assets/tasks-mock.svg)
+![Tasks view mockup](assets/tasks-mock.png)
 
 ### Calendar view (mockup)
 
-![Calendar view mockup](assets/calendar-mock.svg)
+![Calendar view mockup](assets/calendar-mock.png)
 
 End of reflection.
